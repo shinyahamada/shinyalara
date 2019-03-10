@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>投稿画面</title>
-    <link rel="stylesheet" href="{{asset('css/insta.css')}}">
+    <link rel="stylesheet" href="https://shinyalara.herokuapp.com/css/insta.css">
 </head>
 <body>
 

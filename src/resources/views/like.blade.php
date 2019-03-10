@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="{{asset('css/insta.css')}}">
+        <link rel="stylesheet" href="https://shinyalara.herokuapp.com/css/insta.css">
         <title>いいねしたユーザ一覧</title>
     </head>
     <body>
