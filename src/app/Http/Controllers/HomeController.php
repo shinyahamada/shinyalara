@@ -24,11 +24,16 @@ class HomeController extends Controller
     public function index(Request $request)
     {
       $token = $request->session()->get('github_token');
-      try {
-          $github_user = Socialite::driver('github')->userFromToken($token);
-      } catch (\Exception $e) {
-          return redirect('login/github');
+      if($token){
+        try {
+            $github_user = Socialite::driver('github')->userFromToken($token);
+        } catch (\Exception $e) {
+            return redirect('login/github');
+        }
+      }else {
+        $name = "";
       }
+
 
       if (empty($token)) {
         $log = "ログイン";
