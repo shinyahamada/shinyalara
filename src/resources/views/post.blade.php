@@ -10,7 +10,7 @@
     <ul>
       <li><a href="/home">ホーム</a></li>
       <li><a href="/{{$url}}">{{$log}}</a></li>
-      <li><a href="/{{$p_url}}">投稿</a></li>
+      <li><a href="{{$p_url}}">投稿</a></li>
     </ul>
   </div>
 
