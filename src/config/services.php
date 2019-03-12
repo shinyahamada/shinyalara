@@ -15,8 +15,8 @@ return [
     */
 
     'github' => [
-        'client_id' => env('GITHUB_CLIENT_ID'),         // 追加！
-        'client_secret' => env('GITHUB_CLIENT_SECRET'), // 追加！
+        'client_id' => 1d98ccd7b8d0da3fcb1c,         // 追加！
+        'client_secret' => c2291e92c96e80472e4722a6ccf8e9c9240a901c, // 追加！
         'redirect' => '/login/github/callback',
     ],
 
