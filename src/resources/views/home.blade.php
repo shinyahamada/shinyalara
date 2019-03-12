@@ -36,7 +36,6 @@
               <div class="p_comment">
                   {{ $i->comment}}
               </div>
-              @if($login_user_likes[$i->post_id]['l_user']=$name)
               <div class="like-relations">
                 <form class="" action="/like/{{$i->post_id}}" method="post">
                   {{ csrf_field() }}
