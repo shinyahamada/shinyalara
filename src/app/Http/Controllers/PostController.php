@@ -58,7 +58,7 @@ class PostController extends Controller
                     'image',
                     // MIMEタイプを指定
                     'mimes:jpeg,png,gif',
-                    'required|max:60000'
+                    //'required|max:60000'
                 ]
             ]);
 
